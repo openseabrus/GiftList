@@ -37,11 +37,7 @@ class MerkleTree {
       }
     }
 
-    return this.getProof(
-      Math.floor(index / 2),
-      newLayer,
-      proof
-    );
+    return this.getProof(Math.floor(index / 2), newLayer, proof);
   }
 
   // private function
